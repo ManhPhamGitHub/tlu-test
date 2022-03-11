@@ -2,16 +2,26 @@
 <html lang="">
   <head>
     <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/4d9d54c164.js" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      *{
+        margin: 0;
+        padding:0;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+      }
+    </style>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div style="margin:0" id="app"></div>
     <!-- built files will be auto injected -->
   </body>
 </html>
