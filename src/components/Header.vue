@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-      <router-link  class="logo" to="/dashboard"> 
+      <router-link  class="logo" to="/"> 
         <img style="width:40px ; height:35px;" src="../image/logo-small.png" />
       </router-link>
       <div class="avatar">
