@@ -1,7 +1,7 @@
 <template>
   <div class="header">
       <router-link  class="logo" to="/"> 
-        <img style="width:40px ; height:35px;" src="../image/logo-small.png" />
+        <img style="width:40px ; height:35px;" src="../../image/logo-small.png" />
       </router-link>
       <div class="avatar">
         <i style="color:rgb(214, 208, 208);margin-top: -13px;" class="fa-solid fa-circle-user fa-2x"></i>

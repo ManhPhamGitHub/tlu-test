@@ -13,7 +13,7 @@
 import Menu from './Menu.vue'
 import Header from './Header.vue'
 import { mapActions,mapState  } from 'vuex'
-import * as type from '../store/item/type'
+import * as type from '../../store/item/type'
 export default {
   data(){ // state react
     return{
